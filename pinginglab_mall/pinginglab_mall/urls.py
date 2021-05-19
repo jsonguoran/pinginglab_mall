@@ -15,7 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.http import HttpResponse
+
+def log(request):
+    import logging
+    logger = logging.getLogger('django')
+    logger.info('用户登录了')
+    return HttpResponse('log')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('log/', log)
 ]

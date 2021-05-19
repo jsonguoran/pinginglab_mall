@@ -18,3 +18,34 @@ INFO 2021-05-19 17:52:50,160 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
 INFO 2021-05-19 17:52:50,190 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
 INFO 2021-05-19 17:52:51,999 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
 INFO 2021-05-19 17:52:52,056 basehttp 154 "GET /admin/ HTTP/1.1" 200 3007
+INFO 2021-05-19 18:14:16,305 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/urls.py changed, reloading.
+INFO 2021-05-19 18:14:16,602 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:14:45,166 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/urls.py changed, reloading.
+INFO 2021-05-19 18:14:45,450 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:15:23,404 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/urls.py changed, reloading.
+INFO 2021-05-19 18:15:23,738 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:17:44,404 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/urls.py changed, reloading.
+INFO 2021-05-19 18:17:44,721 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:18:13,040 urls 22 用户登录了
+ERROR 2021-05-19 18:18:13,119 log 228 Internal Server Error: /log/
+Traceback (most recent call last):
+  File "/home/pinginglab/anaconda3/envs/pinginglab_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pinginglab/anaconda3/envs/pinginglab_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view pinginglab_mall.urls.log didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-05-19 18:18:13,119 basehttp 154 "GET /log/ HTTP/1.1" 500 64667
+INFO 2021-05-19 18:18:29,021 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/urls.py changed, reloading.
+INFO 2021-05-19 18:18:29,337 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:18:34,772 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/urls.py changed, reloading.
+INFO 2021-05-19 18:18:35,084 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:18:40,898 urls 23 用户登录了
+INFO 2021-05-19 18:18:40,899 basehttp 154 "GET /log/ HTTP/1.1" 200 3
+INFO 2021-05-19 18:20:11,966 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/settings/dev.py changed, reloading.
+INFO 2021-05-19 18:20:12,258 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:20:16,147 urls 23 用户登录了
+INFO 2021-05-19 18:20:16,150 basehttp 154 "GET /log/ HTTP/1.1" 200 3
+INFO 2021-05-19 18:20:21,922 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/settings/dev.py changed, reloading.
+INFO 2021-05-19 18:20:22,227 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 18:20:42,829 urls 23 用户登录了
+INFO 2021-05-19 18:20:42,831 basehttp 154 "GET /log/ HTTP/1.1" 200 3
