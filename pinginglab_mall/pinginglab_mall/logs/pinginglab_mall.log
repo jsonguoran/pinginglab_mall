@@ -1,0 +1,20 @@
+INFO 2021-05-19 17:34:53,084 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 17:36:08,762 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/settings/dev.py changed, reloading.
+INFO 2021-05-19 17:36:09,036 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 17:38:13,405 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-05-19 17:38:20,982 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-05-19 17:38:21,014 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2021-05-19 17:38:22,741 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-05-19 17:38:22,784 basehttp 154 "GET /admin/ HTTP/1.1" 200 3007
+INFO 2021-05-19 17:52:06,460 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/settings/dev.py changed, reloading.
+INFO 2021-05-19 17:52:06,770 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 17:52:14,980 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 17:52:24,594 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/settings/dev.py changed, reloading.
+INFO 2021-05-19 17:52:24,877 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 17:52:35,517 autoreload 217 /home/pinginglab/python_project/pinginglab_mall/pinginglab_mall/pinginglab_mall/settings/dev.py changed, reloading.
+INFO 2021-05-19 17:52:35,811 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-05-19 17:52:50,154 basehttp 154 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2021-05-19 17:52:50,160 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-05-19 17:52:50,190 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2021-05-19 17:52:51,999 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-05-19 17:52:52,056 basehttp 154 "GET /admin/ HTTP/1.1" 200 3007

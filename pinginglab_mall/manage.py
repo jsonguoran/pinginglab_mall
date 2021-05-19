@@ -5,7 +5,10 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pinginglab_mall.settings')
+    # 原来的设置：通过工程直接找到settings.py文件（settings.py文件在工程主目录下）
+    # os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pinginglab_mall.settings')
+    # 现在需要设置为：找到settings目录下的dev.py这个设置文件
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pinginglab_mall.settings.dev')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
